@@ -15,175 +15,175 @@
     <div>
     <form action="">
         <table border="1">
-        <th colspan="12">Datos Personales Del Paciente</th>>
-        <br>
+            <th colspan="12">Datos Personales Del Paciente</th>>
+            <br>
+                <tr>
+                    <td><label>DNI</label></td>
+                    <td colspan="4"><input type="number"></td>
+                </tr>  
+                <br>
+                <tr>
+                    <td><label>Foto</label></td>
+                    <td colspan="4"><input type="file"></td>
+                </tr> 
+                <br>
             <tr>
-                <td><label>DNI</label></td>
+                <td><label>Nombres</label></td>
+                <td colspan="4"><input type="text"></td>
+            </tr> 
+            <br>
+            <div>
+                <td><label>Apellidos</label></td>
+                <td colspan="4"><input type="text"></td>
+            </div>   
+            <br>
+            <tr>
+                <td><label>Fecha de Nacimiento</label></td>
+                <td colspan="4"><input type="date" placeholder="Día/Mes/Año" id="start" name="trip-start"
+                    value="00/00/19"
+                    min="00/00/00"
+                    max="31/12/2022"></td>
+            </tr> 
+            <br>
+            <tr>
+                <td><label>Sexo</label></td>
+                <td colspan="2"><input type="radio"value="M"> <span>Masculino</span></td>
+                <td colspan="2"><input type="radio"value="F"> <span>Femenino</span></td>
+            </tr> 
+            <br>
+            <tr>
+                <td><label>Nombre del Representante</label></td>
+                <td colspan="4"><input type="text"></td>
+            </tr> 
+            <br>
+            <tr>
+                <td><label>Teléfonos</label></td>
+                <td colspan="4"><input type="tel" placeholder="Números sin espacios"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Sala</label></td>
+                <td colspan="4"><select name="sala" id=""> 
+                    <option value="0">-Seleccione- </option>
+                    <option value="1">Emergencia </option>
+                    <option value="2">Sala A </option>
+                    <option value="3">Laboratorio </option>
+                    <option value="4">Rayos X</option>
+                    <option value="5">Hospitalización </option>
+                </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Dirección</label></td>
+                <td colspan="4"><textarea rows="2" placeholder="Escriba aqui su dirección..."></textarea></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Pais</label></td>
+                <td colspan="4"><select name="pais" id=""> 
+                    <option value="0">-Seleccione- </option>
+                    <option value="1">Colombia</option>
+                    <option value="2">Venezuela</option>
+                    <option value="3">Ecuador</option>
+                    <option value="4">Perú</option>
+                    <option value="5">Panamá</option>
+                    <option value="6">Brasil</option>
+                </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Departamento</label></td>
+                <td colspan="4"><input type="text"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Provincia</label></td>
+                <td colspan="4"><input type="text"></td>
+            </tr>        
+            <br>
+            <tr>
+                <td><label>Distrito</label></td>
+                <td  colspan="4"><input type="text"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Estado Civil</label></td>
+                <td colspan="4"><select name="estadocivil" id=""> 
+                    <option value="0">-Seleccione- </option>
+                    <option value="1">Soltero</option>
+                    <option value="2">Casado</option>
+                    <option value="3">Viudo</option>
+                    <option value="4">Unión Libre</option>
+                    <option value="5">Separado</option>
+                    <option value="6">Divorciado</option>
+                </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Emergencia</label></td>
+                <td colspan="4"><textarea rows="2"></textarea></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Grupo Sanguíneo</label></td>
+                <td colspan="4"><select name="gruposanguineo" id=""> 
+                    <option value="0">-Seleccione- </option>
+                    <option value="1">A+</option>
+                    <option value="2">A-</option>
+                    <option value="3">B+</option>
+                    <option value="4">B-</option>
+                    <option value="5">AB+</option>
+                    <option value="6">AB-</option>
+                    <option value="5">O+</option>
+                    <option value="6">O-</option>
+                </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>VIH</label></td>
+                <td colspan="4"><select name="VIH" id=""> 
+                    <option value="0">-Seleccione- </option>
+                    <option value="1">Si</option>
+                    <option value="2">No</option>
+                </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Ocupación</label></td>
+                <td colspan="4"><input type="text"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Peso</label></td>
+                <td colspan="4"><input type="number"></td>
+            </tr>    
+            <br>
+            <tr>
+                <td><label>Talla</label></td>
                 <td colspan="4"><input type="number"></td>
             </tr>  
             <br>
             <tr>
-                <td><label>Foto</label></td>
-                <td colspan="4"><input type="file"></td>
+                <td><label>Alérgico</label></td>
+                <td colspan="4"><textarea rows="4"></textarea></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Medicamento que toma actualmente</label></td>
+                <td colspan="4"><textarea rows="4"></textarea></td>
             </tr> 
             <br>
-        <tr>
-            <td><label>Nombres</label></td>
-            <td colspan="4"><input type="text"></td>
-        </tr> 
-        <br>
+            <tr>
+                <td><label>Enfermedad que tiene</label></td>
+                <td colspan="4"><textarea rows="4"></textarea></td>
+            </tr>
+            <br>
+            
+        </table>
         <div>
-            <td><label>Apellidos</label></td>
-            <td colspan="4"><input type="text"></td>
-        </div>   
-        <br>
-        <tr>
-            <td><label>Fecha de Nacimiento</label></td>
-            <td colspan="4"><input type="date" placeholder="Día/Mes/Año" id="start" name="trip-start"
-                value="00/00/19"
-                min="00/00/00"
-                max="31/12/2022"></td>
-        </tr> 
-        <br>
-        <tr>
-            <td><label>Sexo</label></td>
-            <td colspan="2"><input type="radio"value="M"> <span>Masculino</span></td>
-            <td colspan="2"><input type="radio"value="F"> <span>Femenino</span></td>
-        </tr> 
-        <br>
-        <tr>
-            <td><label>Nombre del Representante</label></td>
-            <td colspan="4"><input type="text"></td>
-        </tr> 
-        <br>
-        <tr>
-            <td><label>Teléfonos</label></td>
-            <td colspan="4"><input type="tel" placeholder="Números sin espacios"></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Sala</label></td>
-            <td colspan="4"><select name="sala" id=""> 
-                <option value="0">-Seleccione- </option>
-                <option value="1">Emergencia </option>
-                <option value="2">Sala A </option>
-                <option value="3">Laboratorio </option>
-                <option value="4">Rayos X</option>
-                <option value="5">Hospitalización </option>
-            </select></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Dirección</label></td>
-            <td colspan="4"><textarea rows="2" placeholder="Escriba aqui su dirección..."></textarea></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Pais</label></td>
-            <td colspan="4"><select name="pais" id=""> 
-                <option value="0">-Seleccione- </option>
-                <option value="1">Colombia</option>
-                <option value="2">Venezuela</option>
-                <option value="3">Ecuador</option>
-                <option value="4">Perú</option>
-                <option value="5">Panamá</option>
-                <option value="6">Brasil</option>
-            </select></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Departamento</label></td>
-            <td colspan="4"><input type="text"></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Provincia</label></td>
-            <td colspan="4"><input type="text"></td>
-        </tr>        
-        <br>
-        <tr>
-            <td><label>Distrito</label></td>
-            <td  colspan="4"><input type="text"></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Estado Civil</label></td>
-            <td colspan="4"><select name="estadocivil" id=""> 
-                <option value="0">-Seleccione- </option>
-                <option value="1">Soltero</option>
-                <option value="2">Casado</option>
-                <option value="3">Viudo</option>
-                <option value="4">Unión Libre</option>
-                <option value="5">Separado</option>
-                <option value="6">Divorciado</option>
-            </select></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Emergencia</label></td>
-            <td colspan="4"><textarea rows="2"></textarea></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Grupo Sanguíneo</label></td>
-            <td colspan="4"><select name="gruposanguineo" id=""> 
-                <option value="0">-Seleccione- </option>
-                <option value="1">A+</option>
-                <option value="2">A-</option>
-                <option value="3">B+</option>
-                <option value="4">B-</option>
-                <option value="5">AB+</option>
-                <option value="6">AB-</option>
-                <option value="5">O+</option>
-                <option value="6">O-</option>
-            </select></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>VIH</label></td>
-            <td colspan="4"><select name="VIH" id=""> 
-                <option value="0">-Seleccione- </option>
-                <option value="1">Si</option>
-                <option value="2">No</option>
-            </select></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Ocupación</label></td>
-            <td colspan="4"><input type="text"></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Peso</label></td>
-            <td colspan="4"><input type="number"></td>
-        </tr>    
-        <br>
-        <tr>
-            <td><label>Talla</label></td>
-            <td colspan="4"><input type="number"></td>
-        </tr>  
-        <br>
-        <tr>
-            <td><label>Alérgico</label></td>
-            <td colspan="4"><textarea rows="4"></textarea></td>
-        </tr>
-        <br>
-        <tr>
-            <td><label>Medicamento que toma actualmente</label></td>
-            <td colspan="4"><textarea rows="4"></textarea></td>
-        </tr> 
-        <br>
-        <tr>
-            <td><label>Enfermedad que tiene</label></td>
-            <td colspan="4"><textarea rows="4"></textarea></td>
-        </tr>
-        <br>
-        
-    </table>
-    <div>
-        <input type="submit" value="Registrar"> 
-        <input type="reset" value="Limpiar">
-    </div>
+            <input type="submit" value="Registrar"> 
+            <input type="reset" value="Limpiar">
+        </div>
     </form>
     </div>
 </body>
